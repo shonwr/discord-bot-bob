@@ -1,2 +1,1 @@
-"# discord-bot-bob" 
-"# discord-bot-bob" 
+The best Bob bot on the interwebz
