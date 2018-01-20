@@ -42,7 +42,7 @@ async def blessrng(ctx):
 #random map drop 
 @bob_the_builder.command()
 async def drop(*args):
-    drop = ['school :school:', 'roz :house:', 'pochinki(mah city):homes: ', 'prison :cop: ', 'mylta :house_abandoned:', 'primo :house_with_garden:', '*pick* :map:']
+    drop = ['school :school:', 'roz :house:', 'pochinki(mah city):homes: ', 'prison :cop: ', 'mylta :house_abandoned:', 'primo :house_with_garden:', 'pick :map:']
     return await bob_the_builder.say("__**" + random.choice(drop) + "**__")
 
 bob_the_builder.run(secrets.BOT_TOKEN)
