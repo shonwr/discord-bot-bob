@@ -45,4 +45,13 @@ async def drop(*args):
     drop = ['school :school:', 'roz :house:', 'pochinki(mah city):homes: ', 'prison :cop: ', 'mylta :house_abandoned:', 'primo :house_with_garden:', 'pick :map:']
     return await bob_the_builder.say("__**" + random.choice(drop) + "**__")
 
+#coinflip 
+@bob_the_builder.command()
+async def flip(*args):
+    x = random.randint(0,1)
+        if(x==1):
+            print("Heads")
+        else:
+            print("Tails")
+        print x
 bob_the_builder.run(secrets.BOT_TOKEN)
